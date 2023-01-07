@@ -1,0 +1,92 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsthm, amsmath, mathtools, amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[colorlinks,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\usepackage{array}
+\usepackage[catalan,english]{babel}
+\usepackage[affil-it]{authblk}
+\usepackage{titlesec}
+\usepackage[intlimits]{esint} % for more options on integrals.
+\usepackage{physics}
+\usepackage[hypcap=false]{caption}
+\usepackage{subcaption}
+\usepackage{multirow}
+% \titleformat{\section}
+%   {\normalfont\fontsize{13}{15}\bfseries}{\thesection}{1em}{}
+
+\newcommand{\NN}{\ensuremath{\mathbb{N}}} % set of natural numbers
+\newcommand{\ZZ}{\ensuremath{\mathbb{Z}}} % set of integers
+\newcommand{\QQ}{\ensuremath{\mathbb{Q}}} % set of rationals
+\newcommand{\RR}{\ensuremath{\mathbb{R}}} % set of real numbers
+\newcommand{\CC}{\ensuremath{\mathbb{C}}} % set of complex numbers
+\newcommand{\KK}{\ensuremath{\mathbb{K}}} % a general field
+
+\newcommand{\vf}[1]{\boldsymbol{\mathrm{#1}}} % math style for vectors and matrices and vector-values functions (previously it was \*vb{#1} but this does not apply to greek letters)
+\newcommand{\ii}{\mathrm{i}} % imaginary unit
+\newtheorem{theorem}{Teorema}
+\newtheorem{prop}{Proposició}
+\theoremstyle{definition}
+\newtheorem{definition}{Definició}
+\DeclareDocumentCommand\derivative{ s o m g d() }{ 
+  % Total derivative
+  % s: star for \flatfrac flat derivative
+  % o: optional n for nth derivative
+  % m: mandatory (x in df/dx)
+  % g: optional (f in df/dx)
+  % d: long-form d/dx(...)
+    \IfBooleanTF{#1}
+    {\let\fractype\flatfrac}
+    {\let\fractype\frac}
+    \IfNoValueTF{#4}
+    {
+        \IfNoValueTF{#5}
+        {\fractype{\diffd \IfNoValueTF{#2}{}{^{#2}}}{\diffd #3\IfNoValueTF{#2}{}{^{#2}}}}
+        {\fractype{\diffd \IfNoValueTF{#2}{}{^{#2}}}{\diffd #3\IfNoValueTF{#2}{}{^{#2}}} \argopen(#5\argclose)}
+    }
+    {\fractype{\diffd \IfNoValueTF{#2}{}{^{#2}} #3}{\diffd #4\IfNoValueTF{#2}{}{^{#2}}}\IfValueT{#5}{(#5)}}
+} % differential operator
+\DeclareDocumentCommand\partialderivative{ s o m g d() }{ 
+  % Total derivative
+  % s: star for \flatfrac flat derivative
+  % o: optional n for nth derivative
+  % m: mandatory (x in df/dx)
+  % g: optional (f in df/dx)
+  % d: long-form d/dx(...)
+  \IfBooleanTF{#1}
+    {\let\fractype\flatfrac}
+    {\let\fractype\frac}
+    \IfNoValueTF{#4}{
+      \IfNoValueTF{#5}
+      {\fractype{\partial \IfNoValueTF{#2}{}{^{#2}}}{\partial #3\IfNoValueTF{#2}{}{^{#2}}}}
+      {\fractype{\partial \IfNoValueTF{#2}{}{^{#2}}}{\partial #3\IfNoValueTF{#2}{}{^{#2}}} \argopen(#5\argclose)}
+    }
+    {\fractype{\partial \IfNoValueTF{#2}{}{^{#2}} #3}{\partial #4\IfNoValueTF{#2}{}{^{#2}}}\IfValueT{#5}{(#5)}}
+} % partial differential operator
+
+\renewcommand{\labelenumii}{\alph{enumii})}
+
+\title{\bfseries\large SEMINARI 2}
+
+\author{Víctor Ballester Ribó\endgraf NIU:1570866}
+\date{\parbox{\linewidth}{\centering
+  Sistemes dinàmics\endgraf
+  Grau en Matemàtiques\endgraf
+  Universitat Autònoma de Barcelona\endgraf
+  Desembre de 2022}}
+
+\setlength{\parindent}{0pt}
+\begin{document}
+\selectlanguage{catalan}
+\maketitle
+\section*{Exercici 1}
+Hola bona tarda
+\section*{Exercici 2}
+\section*{Exercici 3}
+\section*{Exercici 4}
+\section*{Exercici 5}
+\section*{Exercici 6}
+\section*{Exercici 7}
+
+
+\end{document}
