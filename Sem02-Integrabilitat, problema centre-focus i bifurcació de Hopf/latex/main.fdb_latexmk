@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1673110087 "/home/victor/Desktop/sistemes-dinamics/Sem02-Integrabilitat, problema centre-focus i bifurcació de Hopf/latex/main.tex" "main.pdf" "main" 1673110088
-  "/home/victor/Desktop/sistemes-dinamics/Sem02-Integrabilitat, problema centre-focus i bifurcació de Hopf/latex/main.tex" 1673110087 14387 ef023de600603d5367ac256992b5a115 ""
+["pdflatex"] 1673528517 "/home/victor/Desktop/sistemes-dinamics/Sem02-Integrabilitat, problema centre-focus i bifurcació de Hopf/latex/main.tex" "main.pdf" "main" 1673528518
+  "/home/victor/Desktop/sistemes-dinamics/Sem02-Integrabilitat, problema centre-focus i bifurcació de Hopf/latex/main.tex" 1673528516 20770 16ff7e7023f214a7304363b469df4eae ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1650183167 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1650183167 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -46,6 +46,7 @@
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb" 1650183167 36912 b448ef9ad9d7228ec3c6e71005136d55 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1650183167 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1650183167 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1650183167 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1650183167 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1650183167 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1650183167 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -132,7 +133,8 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1668063633 4278762 af3ac1370db81a450c1118eabf1fe718 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1668063596 2927660 46c32818122486288fdd861c28535e62 ""
-  "Images/ex2-lc.eps" 1673090557 91361 62dfbfb7e43b54d348feec359b74534d ""
+  "Images/ex2-lc.png" 1673195076 44520 6235a1870c45d983aa39afcb81ded980 ""
+  "Images/ex3.eps" 1673457603 53953 7abc90f38725b910e8a5e7449690a753 ""
   "Images/ex5-a05x.eps" 1673107938 89141 b41eb16ac1935cba6d3830de5e3b4d8d ""
   "Images/ex5-a05y.eps" 1673107948 89569 0ef570e82e20707d37d1860b59a1fe6d ""
   "Images/ex5-a1.eps" 1673107968 97698 d3d99bb16a5edfbeb9580e48811e4b46 ""
@@ -140,9 +142,10 @@
   "Images/ex5-a4.eps" 1673107989 98940 b55c98e41e4c37f9f4ec30d1de48add8 ""
   "Images/ex5-a45.eps" 1673108000 83593 7fd5e5f929b742f5d3fd6576d0233e8b ""
   "Images/ex5-fg.eps" 1673105339 252566 914f8c46523d8d691b3d7f4adc1e757c ""
-  "main.aux" 1673110088 2079 489921177aa09d05840ff7aac806ccd3 "pdflatex"
+  "Images/ex7-diag2.eps" 1673423617 451775 8538eab6620d455680c08afccc77cd4b ""
+  "main.aux" 1673528517 2569 d09bd79fe97749e9e7e10b248cc8e86a "pdflatex"
   "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1673110087 14387 ef023de600603d5367ac256992b5a115 ""
+  "main.tex" 1673528516 20770 16ff7e7023f214a7304363b469df4eae ""
   (generated)
   "main.aux"
   "main.log"

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.10)  7 JAN 2023 08:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Arch Linux) (preloaded format=pdflatex 2022.11.10)  8 FEB 2023 23:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/victor/Desktop/sistemes-dinamics/Sem02-Integrabilitat, problema centre-focus i bifurcació de Hopf/latex/main.tex"
-(/home/victor/Desktop/sistemes-dinamics/Sem02-Integrabilitat, problema centre-focus i bifurcació de Hopf/latex/main.tex
+**"/home/victor/Desktop/sistemes-dinamics/Sem03-Òrbites periòdiques en semi-sistemes dinàmics discrets 1-dimensionals/latex/main.tex"
+(/home/victor/Desktop/sistemes-dinamics/Sem03-Òrbites periòdiques en semi-sistemes dinàmics discrets 1-dimensionals/latex/main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-04-10> (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -350,24 +350,24 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
  (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
@@ -410,15 +410,15 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=731.23584pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
+* \textwidth=512.14963pt
+* \textheight=759.6886pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -443,7 +443,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 )
-Package hyperref Info: Link coloring ON on input line 79.
+Package hyperref Info: Link coloring ON on input line 80.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -453,47 +453,251 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count308
 )
-LaTeX Info: Redefining \ref on input line 79.
-LaTeX Info: Redefining \pageref on input line 79.
-LaTeX Info: Redefining \nameref on input line 79.
+LaTeX Info: Redefining \ref on input line 80.
+LaTeX Info: Redefining \pageref on input line 80.
+LaTeX Info: Redefining \nameref on input line 80.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-LaTeX Info: Redefining \l on input line 79.
-LaTeX Info: Redefining \L on input line 79.
+LaTeX Info: Redefining \l on input line 80.
+LaTeX Info: Redefining \L on input line 80.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 81.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 82.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 81.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 82.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+esint on input line 81.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 82.
  (/usr/share/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Package epstopdf Info: Source file: <Images/map12.eps>
+(epstopdf)                    date: 2023-02-08 13:47:50
+(epstopdf)                    size: 96097 bytes
+(epstopdf)             Output file: <Images/map12-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-08 13:49:26
+(epstopdf)                    size: 22082 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/map12-eps-converted-to.pdf Images/map12.eps>
+(epstopdf)             \includegraphics on input line 125.
+Package epstopdf Info: Output file is already uptodate.
+<Images/map12-eps-converted-to.pdf, id=47, 557.08125pt x 557.08125pt>
+File: Images/map12-eps-converted-to.pdf Graphic file (type pdf)
+<use Images/map12-eps-converted-to.pdf>
+Package pdftex.def Info: Images/map12-eps-converted-to.pdf  used on input line 125.
+(pdftex.def)             Requested size: 230.46576pt x 230.46188pt.
+Package epstopdf Info: Source file: <Images/map15.eps>
+(epstopdf)                    date: 2023-02-08 13:45:52
+(epstopdf)                    size: 95958 bytes
+(epstopdf)             Output file: <Images/map15-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-08 13:49:26
+(epstopdf)                    size: 22671 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/map15-eps-converted-to.pdf Images/map15.eps>
+(epstopdf)             \includegraphics on input line 131.
+Package epstopdf Info: Output file is already uptodate.
+<Images/map15-eps-converted-to.pdf, id=48, 557.08125pt x 557.08125pt>
+File: Images/map15-eps-converted-to.pdf Graphic file (type pdf)
+<use Images/map15-eps-converted-to.pdf>
+Package pdftex.def Info: Images/map15-eps-converted-to.pdf  used on input line 131.
+(pdftex.def)             Requested size: 230.46576pt x 230.46188pt.
+<Images/map1.png, id=49, 1745.52126pt x 850.17625pt>
+File: Images/map1.png Graphic file (type png)
+<use Images/map1.png>
+Package pdftex.def Info: Images/map1.png  used on input line 138.
+(pdftex.def)             Requested size: 409.72125pt x 199.55794pt.
+ [2 <./Images/map12-eps-converted-to.pdf> <./Images/map15-eps-converted-to.pdf> <./Images/map1.png>]
+Package epstopdf Info: Source file: <Images/map22.eps>
+(epstopdf)                    date: 2023-02-08 17:38:17
+(epstopdf)                    size: 95935 bytes
+(epstopdf)             Output file: <Images/map22-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-08 17:40:46
+(epstopdf)                    size: 22045 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/map22-eps-converted-to.pdf Images/map22.eps>
+(epstopdf)             \includegraphics on input line 168.
+Package epstopdf Info: Output file is already uptodate.
+<Images/map22-eps-converted-to.pdf, id=65, 557.08125pt x 557.08125pt>
+File: Images/map22-eps-converted-to.pdf Graphic file (type pdf)
+<use Images/map22-eps-converted-to.pdf>
+Package pdftex.def Info: Images/map22-eps-converted-to.pdf  used on input line 168.
+(pdftex.def)             Requested size: 230.46576pt x 230.46188pt.
+Package epstopdf Info: Source file: <Images/map25.eps>
+(epstopdf)                    date: 2023-02-08 17:39:36
+(epstopdf)                    size: 95310 bytes
+(epstopdf)             Output file: <Images/map25-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-08 17:40:47
+(epstopdf)                    size: 22460 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/map25-eps-converted-to.pdf Images/map25.eps>
+(epstopdf)             \includegraphics on input line 174.
+Package epstopdf Info: Output file is already uptodate.
+<Images/map25-eps-converted-to.pdf, id=66, 557.08125pt x 557.08125pt>
+File: Images/map25-eps-converted-to.pdf Graphic file (type pdf)
+<use Images/map25-eps-converted-to.pdf>
+Package pdftex.def Info: Images/map25-eps-converted-to.pdf  used on input line 174.
+(pdftex.def)             Requested size: 230.46576pt x 230.46188pt.
+<Images/map2.png, id=67, 1745.52126pt x 850.17625pt>
+File: Images/map2.png Graphic file (type png)
+<use Images/map2.png>
+Package pdftex.def Info: Images/map2.png  used on input line 181.
+(pdftex.def)             Requested size: 409.72125pt x 199.55794pt.
+ [3 <./Images/map22-eps-converted-to.pdf> <./Images/map25-eps-converted-to.pdf> <./Images/map2.png>]
+Package epstopdf Info: Source file: <Images/map32.eps>
+(epstopdf)                    date: 2023-02-08 17:42:25
+(epstopdf)                    size: 92947 bytes
+(epstopdf)             Output file: <Images/map32-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-08 17:43:00
+(epstopdf)                    size: 20719 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/map32-eps-converted-to.pdf Images/map32.eps>
+(epstopdf)             \includegraphics on input line 211.
+Package epstopdf Info: Output file is already uptodate.
+<Images/map32-eps-converted-to.pdf, id=80, 557.08125pt x 557.08125pt>
+File: Images/map32-eps-converted-to.pdf Graphic file (type pdf)
+<use Images/map32-eps-converted-to.pdf>
+Package pdftex.def Info: Images/map32-eps-converted-to.pdf  used on input line 211.
+(pdftex.def)             Requested size: 230.46576pt x 230.46188pt.
+Package epstopdf Info: Source file: <Images/map35.eps>
+(epstopdf)                    date: 2023-02-08 17:42:49
+(epstopdf)                    size: 93762 bytes
+(epstopdf)             Output file: <Images/map35-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-08 17:43:00
+(epstopdf)                    size: 21661 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/map35-eps-converted-to.pdf Images/map35.eps>
+(epstopdf)             \includegraphics on input line 217.
+Package epstopdf Info: Output file is already uptodate.
+<Images/map35-eps-converted-to.pdf, id=81, 557.08125pt x 557.08125pt>
+File: Images/map35-eps-converted-to.pdf Graphic file (type pdf)
+<use Images/map35-eps-converted-to.pdf>
+Package pdftex.def Info: Images/map35-eps-converted-to.pdf  used on input line 217.
+(pdftex.def)             Requested size: 230.46576pt x 230.46188pt.
+<Images/map3.png, id=82, 1745.52126pt x 850.17625pt>
+File: Images/map3.png Graphic file (type png)
+<use Images/map3.png>
+Package pdftex.def Info: Images/map3.png  used on input line 224.
+(pdftex.def)             Requested size: 409.72125pt x 199.55794pt.
+ [4 <./Images/map32-eps-converted-to.pdf> <./Images/map35-eps-converted-to.pdf> <./Images/map3.png>]
+Package epstopdf Info: Source file: <Images/map42.eps>
+(epstopdf)                    date: 2023-02-08 17:53:13
+(epstopdf)                    size: 90711 bytes
+(epstopdf)             Output file: <Images/map42-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-08 17:53:52
+(epstopdf)                    size: 19052 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/map42-eps-converted-to.pdf Images/map42.eps>
+(epstopdf)             \includegraphics on input line 256.
+Package epstopdf Info: Output file is already uptodate.
+<Images/map42-eps-converted-to.pdf, id=93, 557.08125pt x 557.08125pt>
+File: Images/map42-eps-converted-to.pdf Graphic file (type pdf)
+<use Images/map42-eps-converted-to.pdf>
+Package pdftex.def Info: Images/map42-eps-converted-to.pdf  used on input line 256.
+(pdftex.def)             Requested size: 230.46576pt x 230.46188pt.
+Package epstopdf Info: Source file: <Images/map45.eps>
+(epstopdf)                    date: 2023-02-08 17:53:36
+(epstopdf)                    size: 96530 bytes
+(epstopdf)             Output file: <Images/map45-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-08 17:53:52
+(epstopdf)                    size: 22074 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/map45-eps-converted-to.pdf Images/map45.eps>
+(epstopdf)             \includegraphics on input line 262.
+Package epstopdf Info: Output file is already uptodate.
+<Images/map45-eps-converted-to.pdf, id=94, 557.08125pt x 557.08125pt>
+File: Images/map45-eps-converted-to.pdf Graphic file (type pdf)
+<use Images/map45-eps-converted-to.pdf>
+Package pdftex.def Info: Images/map45-eps-converted-to.pdf  used on input line 262.
+(pdftex.def)             Requested size: 230.46576pt x 230.46188pt.
+<Images/map4.png, id=95, 1745.52126pt x 850.17625pt>
+File: Images/map4.png Graphic file (type png)
+<use Images/map4.png>
+Package pdftex.def Info: Images/map4.png  used on input line 269.
+(pdftex.def)             Requested size: 409.72125pt x 199.55794pt.
+ [5 <./Images/map42-eps-converted-to.pdf> <./Images/map45-eps-converted-to.pdf> <./Images/map4.png>]
+Package epstopdf Info: Source file: <Images/map52.eps>
+(epstopdf)                    date: 2023-02-08 22:16:26
+(epstopdf)                    size: 94190 bytes
+(epstopdf)             Output file: <Images/map52-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-08 22:18:48
+(epstopdf)                    size: 21242 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/map52-eps-converted-to.pdf Images/map52.eps>
+(epstopdf)             \includegraphics on input line 282.
+Package epstopdf Info: Output file is already uptodate.
+<Images/map52-eps-converted-to.pdf, id=106, 557.08125pt x 557.08125pt>
+File: Images/map52-eps-converted-to.pdf Graphic file (type pdf)
+<use Images/map52-eps-converted-to.pdf>
+Package pdftex.def Info: Images/map52-eps-converted-to.pdf  used on input line 282.
+(pdftex.def)             Requested size: 230.46576pt x 230.46188pt.
+Package epstopdf Info: Source file: <Images/map55.eps>
+(epstopdf)                    date: 2023-02-08 22:17:02
+(epstopdf)                    size: 90379 bytes
+(epstopdf)             Output file: <Images/map55-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-08 22:18:48
+(epstopdf)                    size: 20457 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/map55-eps-converted-to.pdf Images/map55.eps>
+(epstopdf)             \includegraphics on input line 288.
+Package epstopdf Info: Output file is already uptodate.
+<Images/map55-eps-converted-to.pdf, id=107, 557.08125pt x 557.08125pt>
+File: Images/map55-eps-converted-to.pdf Graphic file (type pdf)
+<use Images/map55-eps-converted-to.pdf>
+Package pdftex.def Info: Images/map55-eps-converted-to.pdf  used on input line 288.
+(pdftex.def)             Requested size: 230.46576pt x 230.46188pt.
+<Images/map5.png, id=108, 1744.5175pt x 850.17625pt>
+File: Images/map5.png Graphic file (type png)
+<use Images/map5.png>
+Package pdftex.def Info: Images/map5.png  used on input line 295.
+(pdftex.def)             Requested size: 409.72125pt x 199.67468pt.
+ [6 <./Images/map52-eps-converted-to.pdf> <./Images/map55-eps-converted-to.pdf> <./Images/map5.png>]
+Package epstopdf Info: Source file: <Images/map62.eps>
+(epstopdf)                    date: 2023-02-08 23:02:38
+(epstopdf)                    size: 96614 bytes
+(epstopdf)             Output file: <Images/map62-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-08 23:03:11
+(epstopdf)                    size: 20687 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/map62-eps-converted-to.pdf Images/map62.eps>
+(epstopdf)             \includegraphics on input line 327.
+Package epstopdf Info: Output file is already uptodate.
+<Images/map62-eps-converted-to.pdf, id=122, 557.08125pt x 557.08125pt>
+File: Images/map62-eps-converted-to.pdf Graphic file (type pdf)
+<use Images/map62-eps-converted-to.pdf>
+Package pdftex.def Info: Images/map62-eps-converted-to.pdf  used on input line 327.
+(pdftex.def)             Requested size: 230.46576pt x 230.46188pt.
+Package epstopdf Info: Source file: <Images/map65.eps>
+(epstopdf)                    date: 2023-02-08 19:02:20
+(epstopdf)                    size: 97302 bytes
+(epstopdf)             Output file: <Images/map65-eps-converted-to.pdf>
+(epstopdf)                    date: 2023-02-08 23:02:10
+(epstopdf)                    size: 21613 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/map65-eps-converted-to.pdf Images/map65.eps>
+(epstopdf)             \includegraphics on input line 333.
+Package epstopdf Info: Output file is already uptodate.
+<Images/map65-eps-converted-to.pdf, id=123, 557.08125pt x 557.08125pt>
+File: Images/map65-eps-converted-to.pdf Graphic file (type pdf)
+<use Images/map65-eps-converted-to.pdf>
+Package pdftex.def Info: Images/map65-eps-converted-to.pdf  used on input line 333.
+(pdftex.def)             Requested size: 230.46576pt x 230.46188pt.
+<Images/map6.png, id=124, 1748.5325pt x 850.17625pt>
+File: Images/map6.png Graphic file (type png)
+<use Images/map6.png>
+Package pdftex.def Info: Images/map6.png  used on input line 340.
+(pdftex.def)             Requested size: 409.72125pt x 199.20767pt.
+ [7 <./Images/map62-eps-converted-to.pdf> <./Images/map65-eps-converted-to.pdf> <./Images/map6.png>] [8] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 6475A82B53573BE525427882B0D89A12;416.
  ) 
 Here is how much of TeX's memory you used:
- 14183 strings out of 478238
- 225059 string characters out of 5850455
- 536964 words of memory out of 5000000
- 32230 multiletter control sequences out of 15000+600000
- 475623 words of font info for 54 fonts, out of 8000000 for 9000
+ 14432 strings out of 478238
+ 229955 string characters out of 5850455
+ 551468 words of memory out of 5000000
+ 32404 multiletter control sequences out of 15000+600000
+ 484096 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,5n,77p,457b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (1 page, 39952 bytes).
+ 72i,11n,77p,989b,572s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (8 pages, 1951700 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 147 words of extra memory for PDF output out of 10000 (max. 10000000)
 
